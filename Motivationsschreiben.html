@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdi Abdirashid — Kurzvorstellung & Motivation</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+        
+        body {
+            font-family: 'Inter', system-ui, sans-serif;
+            background: #f8fafc;
+        }
+        
+        .document {
+            max-width: 210mm;
+            margin: 15mm auto;
+            background: white;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #1e2937 0%, #334155 100%);
+            color: white;
+            padding: 25px 35px 20px;
+            display: flex;
+            gap: 20px;
+            align-items: center;
+        }
+        
+        .profile-img {
+            width: 110px;
+            height: 140px;
+            object-fit: cover;
+            border: 4px solid white;
+            border-radius: 8px;
+            flex-shrink: 0;
+        }
+        
+        .content {
+            padding: 35px;
+            font-size: 15.5px;
+            line-height: 1.65;
+            color: #1f2937;
+        }
+        
+        h2 {
+            font-size: 22px;
+            font-weight: 700;
+            color: #1e2937;
+            border-bottom: 3px solid #3b82f6;
+            padding-bottom: 8px;
+            margin-bottom: 20px;
+        }
+        
+        p {
+            margin-bottom: 16px;
+            text-align: justify;
+        }
+        
+        .date {
+            text-align: right;
+            font-size: 16px;
+            color: #4b5563;
+            margin-bottom: 25px;
+        }
+        
+        .signature {
+            height: 75px;
+            margin: 30px 0 10px;
+        }
+
+        @media (max-width: 768px) {
+            .document {
+                margin: 0;
+                max-width: 100%;
+                box-shadow: none;
+            }
+
+            .header {
+                flex-direction: column;
+                align-items: flex-start;
+                padding: 24px;
+            }
+
+            .profile-img {
+                width: 95px;
+                height: 120px;
+            }
+
+            .content {
+                padding: 24px;
+                font-size: 15px;
+            }
+
+            p {
+                text-align: left;
+            }
+        }
+        
+        @media print {
+            body { background: white; margin: 0; }
+            .document { box-shadow: none; margin: 0; max-width: 100%; }
+            .content { padding: 30px 35px; }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="document mx-auto">
+        <div class="header">
+            <img src="img.png" alt="Abdi Abdirashid" class="profile-img">
+
+            <div>
+                <h1 class="text-3xl font-bold tracking-tight">Abdi Abdirashid</h1>
+                <p class="text-blue-200 text-lg">Kurzvorstellung & Motivation</p>
+
+                <div class="text-sm mt-4 space-y-1">
+                    <div>Stallikerstrasse 8 • 8906 Bonstetten</div>
+                    <div>+41 76 459 70 06 • abdi.abdirashid@hotmail.com</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="date" id="current-date"></div>
+
+            <h2>Kurzvorstellung & Motivation</h2>
+
+            <p>Herzlich willkommen und vielen Dank für Ihren Besuch auf meinem Profil.</p>
+
+            <p>Mein Name ist Abdi Abdirashid. Als motivierter Quereinsteiger in die Qualitätssicherung bringe ich eine abgeschlossene Lehre als Unterhaltspraktiker EBA sowie Berufserfahrung in Produktion, Unterhalt und Installation mit.</p>
+
+            <p>Während meines Berufslebens habe ich gelernt, Verantwortung zu übernehmen, sorgfältig zu arbeiten und mich schnell an neue Situationen anzupassen. Ich arbeite gerne selbstständig, schätze aber auch die Zusammenarbeit im Team. Zuverlässigkeit, Respekt und eine positive Einstellung sind mir sehr wichtig.</p>
+
+            <p>Ursprünglich komme ich aus Somalia. Aufgewachsen bin ich in Kenia und Tansania, bevor ich im Jahr 2016 in die Schweiz gekommen bin. Die Schweiz ist heute meine Heimat. Hier habe ich meine Ausbildung abgeschlossen und mein Leben aufgebaut. Durch das Aufwachsen in verschiedenen Ländern habe ich gelernt, offen auf Menschen zuzugehen, verschiedene Kulturen zu verstehen und mich schnell in neue Umgebungen einzuleben.</p>
+
+            <p>Seit April 2025 arbeite ich bei der Stooss AG in der Produktion. Neben meiner Vollzeitstelle absolviere ich das Google IT Support Professional Certificate auf Coursera und entwickle praktische QA-Kenntnisse. Dabei beschäftige ich mich mit manuellem Testen, Testfällen, Bug Reporting, Regressionstests, explorativem Testen, Browser DevTools und Grundlagen von API-Tests.</p>
+
+            <p>Ich kommuniziere ruhig und klar, dokumentiere sorgfältig und arbeite qualitäts- und sicherheitsbewusst. Zuverlässigkeit und Lernbereitschaft gehören zu meinen wichtigsten Stärken.</p>
+
+            <p>Praktische Erfahrung sammle ich mit einem eigenen Job Application Tracker mit Anmeldung und Cloud-Daten sowie mit meinem Lernportfolio in HTML, CSS und JavaScript. Ich teste Login, Formulare, Validierung und responsive Ansichten, formuliere Testfälle und dokumentiere Fehler mit Soll- und Ist-Ergebnis.</p>
+
+            <p>Ich suche eine Juniorstelle im Quality Assurance oder Software Testing, in der ich Anwendungen sorgfältig prüfen, Fehler nachvollziehbar dokumentieren und von einem erfahrenen QA-Team lernen kann. Meine Kündigungsfrist beträgt einen Monat; eine Visumssponsorschaft ist nicht erforderlich.</p>
+
+            <p>Vielen Dank für Ihr Interesse und Ihre Zeit. Ich freue mich darauf, mich persönlich bei Ihnen vorzustellen.</p>
+
+            <p class="mt-10">Freundliche Grüsse</p>
+
+            <img class="signature" src="Picture1.png" alt="Unterschrift">
+
+            <p class="font-medium">Abdi Abdirashid</p>
+
+            <p class="mt-8">
+                <a href="Berufsattest Unterhaltspraktiker EBA-1.png" target="_blank"
+                   class="inline-flex items-center gap-2 text-blue-600 hover:text-blue-700 transition-colors">
+                    <i class="fas fa-file-pdf"></i> Berufsattest Unterhaltspraktiker EBA ansehen
+                </a>
+            </p>
+            <p class="mt-3">
+                <a href="UAS-A1-A3-certificate-pdf.pdf" target="_blank" class="inline-flex items-center gap-2 text-blue-600 hover:text-blue-700 transition-colors">
+                    <i class="fas fa-certificate"></i> Drohnenzertifikat A1/A3 ansehen
+                </a>
+            </p>
+        </div>
+    </div>
+
+    <script>
+        const currentDate = new Date();
+        const options = { year: 'numeric', month: 'long', day: 'numeric' };
+        const dateString = currentDate.toLocaleDateString('de-CH', options);
+        document.getElementById('current-date').innerText = dateString;
+    </script>
+</body>
+</html>
